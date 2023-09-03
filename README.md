@@ -19,8 +19,9 @@ Remove the null values from the data
 Save the Clean data to the file
 
 # CODE 
-```
+
 ##LOAN_DATA.CSV
+```
 import pandas as pd
 df=pd.read_csv("Loan_data.csv")
 print(df)
@@ -187,6 +188,7 @@ df.isnull().sum()
 ![261777076-4611191e-159e-4a17-9170-8bdc523d8c93](https://github.com/Mourise9342/ODD2023-Datascience-Ex01/assets/120081893/d3b69cb4-a796-407e-a9fb-dcdd7ad3ade9)
 
 RESULT
+
 Thus,the given data is read,cleansed and the cleaned data is saved into the file.
  
 
